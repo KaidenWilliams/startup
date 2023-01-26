@@ -12,3 +12,4 @@ This is the attempt at the merge change
 
 Well it worked this time
 
+Notes - I couldn't really figure out how to do this by just reading it, I just needed to jump in and actually try it.
