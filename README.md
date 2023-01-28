@@ -1,15 +1,13 @@
-# startup
+Local Tour Guide
 
-This is a modification
 
-This is another modification
+We all have times where we sit around, bored,
+thinking there's absolutely nothing to do. I've 
+felt it, we'be all felt it. Well now there's a
+quick and easy way to find local activities 
+through the Local tour guide app. Using it,
+you can quickly find activities around you by
+looking at user submissions of places and 
+activities posted from fellow community members,
+Meaning they will be convenient to you.
 
-This is yet another modification
-
-Messed up the order and forgot to deal with merge, here is another attempt.
-
-This is the attempt at the merge change
-
-Well it worked this time
-
-Notes - I couldn't really figure out how to do this by just reading it, I just needed to jump in and actually try it.
