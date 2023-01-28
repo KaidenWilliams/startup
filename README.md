@@ -11,3 +11,4 @@ looking at user submissions of places and
 activities posted from fellow community members,
 Meaning they will be convenient to you.
 
+![CA9DA1CF-25DE-4B87-B095-89C4595ADC31](https://user-images.githubusercontent.com/123617877/215238229-4cd7ea4f-07bf-4570-bafe-e2741f53f3de.jpeg)
