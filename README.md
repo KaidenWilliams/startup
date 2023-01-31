@@ -39,7 +39,7 @@ AWS Assignment:
 
 Was a lot more complicated setting up website than I thought it would be, overwhelming amount of information and specification options, I would be very lost without the assignment guide.
 I didn't think my website would have preloaded content, I guess it is automatically loaded in when connecting to CS server
-IP adress: http://18.224.70.62/
+IP adress: 18.116.166.104
 Still not completely sure how to use SSH and development vs production environments, have to figure that out
 
 
