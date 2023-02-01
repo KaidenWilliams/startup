@@ -32,9 +32,11 @@ Filter activities by category they are listed under
 
 Add new activities yourself by pressing location on mapand writing description
 
+.
 
+.
 
-
+.
 
 AWS Assignment:
 
@@ -45,6 +47,10 @@ I didn't think my website would have preloaded content, I guess it is automatica
 IP adress: 18.116.166.104
 
 Still not completely sure how to use SSH and development vs production environments, have to figure that out
+
+.
+
+.
 
 
 DNS: smartprogramming.click
