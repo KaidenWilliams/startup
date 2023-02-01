@@ -30,17 +30,27 @@ If you click on activities it gives a description of them
 
 Filter activities by category they are listed under
 
-Add new activities yourself by pressing location on map
-and writing description
+Add new activities yourself by pressing location on mapand writing description
+
+
 
 
 
 AWS Assignment:
 
 Was a lot more complicated setting up website than I thought it would be, overwhelming amount of information and specification options, I would be very lost without the assignment guide.
+
 I didn't think my website would have preloaded content, I guess it is automatically loaded in when connecting to CS server
+
 IP adress: 18.116.166.104
+
 Still not completely sure how to use SSH and development vs production environments, have to figure that out
 
+
+DNS: smartprogramming.click
+
+Easier to navigate through the route 53 page than it was to initially set up server.
+
+Cool how you can put anyword in front of root and it still works, http://chicken.smartprogramming.click/ is still completely valid
 
 
