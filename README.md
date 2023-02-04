@@ -36,6 +36,10 @@ Add new activities yourself by pressing location on mapand writing description
 
 .
 
+Potential ideas: Geocaching/Google maps thing, Stock market ticker display (if live updates that way count as webservices), Notes app with collaborative editing with others
+
+.
+
 .
 
 AWS Assignment:
