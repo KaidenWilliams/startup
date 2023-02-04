@@ -62,5 +62,9 @@ DNS: smartprogramming.click
 Easier to navigate through the route 53 page than it was to initially set up server.
 
 Cool how you can put anyword in front of root and it still works, http://chicken.smartprogramming.click/ is still completely valid
+.
 
+.
 
+It's cool how caddy does all the heavy lifting for you, I do want to dig a little deeper into how it works though
+D to resolve changes with .swp files in vi
