@@ -69,3 +69,20 @@ Cool how you can put anyword in front of root and it still works, http://chicken
 It's cool how caddy does all the heavy lifting for you, I do want to dig a little deeper into how it works though
 
 D to resolve changes with .swp files in vi
+
+.
+
+.
+
+HTML is comprised of a bunch of tags that dictate the layout of your website/how it is organized, containers in containers.
+
+Seems like it's impossible to remember everything, just remember what is possible and then if you want to do it look it up on internet.
+
+Multiple different types of headers
+
+Classes and id's don't really do anything with solely HTML, they are very useful when used with CSS and Javascript though because then you can define the behaviors of those classes.
+
+Inline vs block elements, block takes up all space available and automatically makes new line, inline does not make a new line and only takes up as much space as neccesary, also cannot contain a block element while vice versa is true. Block is like <p> or <div>, inline is like <span> or <a>.
+  
+
+
