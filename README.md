@@ -76,6 +76,8 @@ D to resolve changes with .swp files in vi
 
 HTML is comprised of a bunch of tags that dictate the layout of your website/how it is organized, containers in containers.
 
+Tags normally go <x> </x>, if just one tag <br/>.
+
 Seems like it's impossible to remember everything, just remember what is possible and then if you want to do it look it up on internet.
 
 Multiple different types of headers
@@ -84,5 +86,21 @@ Classes and id's don't really do anything with solely HTML, they are very useful
 
 Inline vs block elements, block takes up all space available and automatically makes new line, inline does not make a new line and only takes up as much space as neccesary, also cannot contain a block element while vice versa is true. Block is like <p> or <div>, inline is like <span> or <a>.
   
-
+Interesting to see how many different types of elements there are, I don't completely get the differences between all of them for example <nav> vs. <main>, seems like all the different elements are for all the different possible kinds of content you could include in a website.
+  
+All the input get's stored inside the form element, used to be absolutely essential to submit everything but now with Javascript everything can dynamically update, still common practice to put everything in form.
+  
+Form: action: defines where the information is sent. Method: Specifies how to send form data, get and post are most common, get: appends data into url, less secure, better used for stuff that can be bookmarked and not too private like Google search queries. Post: Appends form data into body of url request, more secure, has no size limitations.
+  
+For input can have validation through regex pattern matching.
+  
+Many different kinds of inputs, different things you can do with each one, for example can allow user to select multiple different options you specify. Strange how you don't have to do anything with file uploads your computer just knows to pull up file explorer.
+  
+Crazy how meter willl change colors just by setting low and high values
+  
+Either use relative of full path for external media, relative if media stored same place HTML is and full path if not, want to make relative relative as possible.
+  
+For video and audio you can choose if you want them to autoplay, also can let user control them.
+  
+Can make your own media using svg and canvas.
 
