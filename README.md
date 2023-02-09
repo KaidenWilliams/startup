@@ -103,4 +103,21 @@ Either use relative of full path for external media, relative if media stored sa
 For video and audio you can choose if you want them to autoplay, also can let user control them.
   
 Can make your own media using svg and canvas.
+.
 
+.
+
+For my HTML assingment, my photo at first was far too large so I had to make it a lot smaller. Also, I was impressed with how fast the deployment script worked,
+my website updated instantly.
+
+.
+
+.
+
+My Simon Project:
+
+I figured out what the simon code did, wrote it all out, did my commits, and ran the script to deploy it. However when I try to access the website I get the error Error: ENOENT: no such file or directory, stat '/home/ubuntu/services/simon/public/index.html', which I have not been able to solve. I do not know why it is doing it, but I will try to fix it tomorrow.
+
+Besides that, I thought the HTML was interesting. I assumed the Simon toy would be an image, but it was actually a graph with SVG and a button in it.
+
+It was cool how most of the code was reused for the 4 web pages except the main element, where everything was different.
