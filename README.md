@@ -121,3 +121,9 @@ I figured out what the simon code did, wrote it all out, did my commits, and ran
 Besides that, I thought the HTML was interesting. I assumed the Simon toy would be an image, but it was actually a graph with SVG and a button in it.
 
 It was cool how most of the code was reused for the 4 web pages except the main element, where everything was different.
+  
+Well I realized today that the problem was the fact that I renamed my index.html file to home.html, so the computer didn't know what page to route itself to. I fixed that and everything should be working now.
+  
+-index.html file has a purpose, it is the default page
+  
+ When you have an error check discord, high likelihood someone else had it too.
