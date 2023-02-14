@@ -127,3 +127,13 @@ Well I realized today that the problem was the fact that I renamed my index.html
 -index.html file has a purpose, it is the default page
   
  When you have an error check discord, high likelihood someone else had it too.
+
+.
+
+.
+
+CSS:
+
+I did not realize how hard it was to make something look good until I did this assignment
+
+There is a difference between defining behavior for an element for example p{} vs. .p{}, the second makes a class that needs to be added later on like <p class = "p">
