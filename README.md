@@ -137,3 +137,15 @@ CSS:
 I did not realize how hard it was to make something look good until I did this assignment
 
 There is a difference between defining behavior for an element for example p{} vs. .p{}, the second makes a class that needs to be added later on like <p class = "p">
+
+.
+
+.
+
+Flex rating: How much of the screen the flex box will try to take up/move (I think). @media takes in screen size as input and can call changes on css for output.
+
+Seems like you have to really add layers to your html to be able to more easily do what you want with flex.
+
+Default turn the margins and everything to zero so you can manually do it later.
+
+Read through the w3schools css stuff, experiment with froggy.
