@@ -149,3 +149,9 @@ Seems like you have to really add layers to your html to be able to more easily 
 Default turn the margins and everything to zero so you can manually do it later.
 
 Read through the w3schools css stuff, experiment with froggy.
+
+.
+
+.
+
+CSS is inline with html for Bootstrap, figure out what all the different class options do.
