@@ -155,3 +155,11 @@ Read through the w3schools css stuff, experiment with froggy.
 .
 
 CSS is inline with html for Bootstrap, figure out what all the different class options do.
+
+.
+
+.
+
+The CSS was very nice when making the Simon project, it cut down on a lot of code when making tables and visuals for the play and scores files
+
+The css bootstrap names for things were interesting, such as bg-dark text-dark text-muted.
