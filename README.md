@@ -173,3 +173,23 @@ Javascript reminds me of Python but has curly brackets and Semicolons.
 Strange how for arrays you need to use for of instead of for in loops.
 
 Classes make sense, objects seem like mix between classes and dictionaries.
+
+.
+
+.
+
+Startup Notes -
+  
+CSS is very trial and error, you have to throw things out and see what works.
+  
+Found it works best for me to get general html layout, then focus on specific fine-tuned CSS and HTML one section at a time.
+  
+For classes I need to work on making things more reusable, also taking advantage of more selectors like applying a style to all child elements of an element, I also need to use less inline CSS declarations.
+  
+Set all box sizing to border box, makes life easier. Padding pushes out to make more space, margin pushes in away.
+  
+Using rem for font size made my life easier, put px for header and footer sizes.
+  
+Almost always use align-items center for flex, stretch is also good for putting things in middle.
+  
+Still don't quite get space-between vs. space-around for flex justify-content, also don't get relative vs absolute alignment.
