@@ -9,6 +9,7 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
+    background-color: #e3f8ff;
   }
   
   header {
@@ -20,11 +21,26 @@
   }
 
   .iheader {
-    flex: 0 100px;
+    flex: 0 6rem;
   }
   
 .ihfont{
     font-size: 4rem;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+  height: 70px;
+}
+
+.hinput {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 main {
@@ -36,15 +52,9 @@ main {
 
   }
 
-.iinput {
-    font-size: 1.5rem;
-    padding: 2rem;
-
-}
-
 
 footer {
-    flex: 0 1px;
+    flex: 0 1rem;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -53,4 +63,29 @@ footer {
   
 .bdiv {
     padding: 0.3rem;
+}
+
+.button2 {
+  background-color: rgb(159, 195, 234); 
+  color: black; 
+  border: 0.15rem solid #000000;
+  padding: 0.08em;
+}
+
+.button2:hover {
+  background-color: #3491cb;
+  color: rgb(255, 255, 255);
+}
+
+
+@media (max-height: 340px) {
+  header {
+    display: none;
+  }
+  footer {
+    display: none;
+  }
+  main {
+    flex: 1 100vh;
+  }
 }
