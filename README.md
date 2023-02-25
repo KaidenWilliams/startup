@@ -193,3 +193,5 @@ Using rem for font size made my life easier, put px for header and footer sizes.
 Almost always use align-items center for flex, stretch is also good for putting things in middle.
   
 Still don't quite get space-between vs. space-around for flex justify-content, also don't get relative vs absolute alignment.
+  
+CSS tricks, W3schools, Stackoverflow, and developer tools are all super helpful.
