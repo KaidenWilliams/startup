@@ -195,3 +195,23 @@ Almost always use align-items center for flex, stretch is also good for putting 
 Still don't quite get space-between vs. space-around for flex justify-content, also don't get relative vs absolute alignment.
   
 CSS tricks, W3schools, Stackoverflow, and developer tools are all super helpful.
+  
+.
+  
+.
+  
+ReGex:
+  
+To get input from html document, can use document.queryselector (any CSS selector) document.getlementbyid (only ids)
+  
+//: JS regex starts and end with backslashes, (): Capturing group, (?:): Non-capturing group, (?=): look-ahead group, \n: captures same characters captured in group n, ^: matches start of string, $: captures end of string.
+  
+Match valid Phone number: /^(?:\d{3}|\(\d{3}\))([-/.])\d{3}\1\d{4}$/
+  
+/d: any digit, /w: any word, /s: whitespace, /S: any non-whitespace character
+  
+.addeventlistener(type (string of event), listener (object or function that recieves notifcation and does something), options (multiple possible specifications) : Does something when something happens, similar to .onclick.
+  
+` `: backticks, used to enclose strings that also have stuff you want to be evaluated like variables or functions.
+  
+.textcontent: defines what the text inside a element will be. .value: accesses the value passed into an element.
