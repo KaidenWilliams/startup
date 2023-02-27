@@ -200,7 +200,7 @@ CSS tricks, W3schools, Stackoverflow, and developer tools are all super helpful.
   
 .
   
-ReGex:
+ReGex + others:
   
 To get input from html document, can use document.queryselector (any CSS selector) document.getlementbyid (only ids)
   
@@ -215,3 +215,11 @@ Match valid Phone number: /^(?:\d{3}|\(\d{3}\))([-/.])\d{3}\1\d{4}$/
 ` `: backticks, used to enclose strings that also have stuff you want to be evaluated like variables or functions.
   
 .textcontent: defines what the text inside a element will be. .value: accesses the value passed into an element.
+  
+Rest and spread are basically reciprocals of each other, one passed into function as parameter and other put while intially declaring function.
+  
+Deconstructing is similar to tuple unpacking in Python, you need to use same type of brackets as thing you are unpacking.
+  
+Use exceptions sparingly, utilize fallbakcks where you try to do thing in ideal way but if that doesn't work do it in non-ideal way.
+  
+Can use prompt() function or capture input on form element.
