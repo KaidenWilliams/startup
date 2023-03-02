@@ -225,3 +225,9 @@ Use exceptions sparingly, utilize fallbakcks where you try to do thing in ideal 
 Can use prompt() function or capture input on form element.
   
 Dom: Document object model, name for API's that together can modify hmtl, document is root for DOM
+  
+&nbsp: non-breaking space, makes space every time consistently for html, string representation is "\u00A0",  very useful, multiple " " in a row will just be interpreted as one break.
+  
+Adding spaces when joining arrays was giving me trouble, fixing that fixed my problems.
+  
+& is not greedy, evaluates everything, && is greedy an short circuits. 
