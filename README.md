@@ -223,3 +223,5 @@ Deconstructing is similar to tuple unpacking in Python, you need to use same typ
 Use exceptions sparingly, utilize fallbakcks where you try to do thing in ideal way but if that doesn't work do it in non-ideal way.
   
 Can use prompt() function or capture input on form element.
+  
+Dom: Document object model, name for API's that together can modify hmtl, document is root for DOM
