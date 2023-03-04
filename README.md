@@ -231,3 +231,8 @@ Dom: Document object model, name for API's that together can modify hmtl, docume
 Adding spaces when joining arrays was giving me trouble, fixing that fixed my problems.
   
 & is not greedy, evaluates everything, && is greedy an short circuits. 
+.
+
+.
+
+Promise, async, await: 
