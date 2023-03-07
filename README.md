@@ -236,3 +236,20 @@ Adding spaces when joining arrays was giving me trouble, fixing that fixed my pr
 .
 
 Promise, async, await: 
+.
+
+.
+
+Simon JS: Form can be completely replaced by JS, no longer need HMTL element to submit button click when you can use addeventlistener or onclick instead.
+
+localStorage: object in web browser that allows developers to store key-value pairs in web browser, can store data even if page is closed. Data stored as string, setItem makes item, getItem removes item, removeItem removes item.
+
+Window Object: current tab or window, top level object in JS hierarchy. Window.location: Used to change Url to move to new browser. Window.localstorage: Provides access to browsers local storage. Windows.document: Provides access to DoM. Windows.alert, Windows.prompt.
+
+Mostly just main that is changing with JS, most other thigs staying pretty much the same.
+
+Onclick = "function", function has to be surrounded in quotes.
+
+<script tag more commonly placed in bottom of html because it allows everything else to load first.
+
+
