@@ -253,3 +253,28 @@ Onclick = "function", function has to be surrounded in quotes.
 <script tag more commonly placed in bottom of html because it allows everything else to load first.
 
 
+MiDTERM:
+
+Record type to point to another DNS record: CNAME, but we need to know A, not SOA or txt 
+DOM textContent: Sets child text for the an element
+CNAME: Canonical Name, maps a hostname to another hostname, does not have to be in same zone, "www CNAME web" would map "www.reddit.com" to "web.reddit.com". Likewise "www CNAME www.google.com." would map "www.reddit.com" to "www.google.com"
+A: Adress record, maps hostname to IP address, "www A 72.246.43.82" means that "www.reddit.com" can be found at the IP address 72.246.43.82. Note that you can have multiple A records (IP addresses) for the same hostname.
+Can use CSS to load fonts from Google, look up what that syntax is
+Valid Json: {“x”:3], always has key value in double quotes for JSON, undefined not valid value for JSON object
+Valid Javascript object: {x:3}
+To turn BYU text blue: div.header {color: blue}
+<Javascript> </Javascript> Not valid to include Javascript in HTML
+/A|f/i: /i means not case sensitive, regular expression that will match an a or f
+Function f(x) = {}: Not a valid function. Arrow functions are valid though.
+Padding: Puts space around content of selected documents, Pals before marriage
+Margin, border, padding, content, from outside in of box
+Reduce: Takes array and makes it into one item, map:  map: Takes array and applies some sort of function to each item, maps function onto every value in array, filter: Pass in array, returns array with values that match criteria, sum:
+<ul>: HTML unordered list, <li>: Item in a list, <ol>: ordered list
+<a href: valid link
+Dns subdomain: c260.cs.byu.edu
+Chmod +x deploy.sh: Command to change file permissions of deploy.sh, chmod: change mode which allows you to modify file, +x adds execute permissions to file, means it can be executed as a program.
+Ls – la deploy.sh: list details about deploy.sh, ls stands for list and shows content, la is ls option used to display additional information
+Sudo deploy.sh: runs deploy.sh with priveleges, sudo: superuser do, executes commands with administrative or root-level permissions
+Ssh deploy.sh: Not a valid command, ssh is used to establish a secure shell connection to server.
+
+
