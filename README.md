@@ -173,3 +173,108 @@ Javascript reminds me of Python but has curly brackets and Semicolons.
 Strange how for arrays you need to use for of instead of for in loops.
 
 Classes make sense, objects seem like mix between classes and dictionaries.
+
+.
+
+.
+
+Startup Notes -
+  
+CSS is very trial and error, you have to throw things out and see what works.
+  
+Found it works best for me to get general html layout, then focus on specific fine-tuned CSS and HTML one section at a time.
+  
+For classes I need to work on making things more reusable, also taking advantage of more selectors like applying a style to all child elements of an element, I also need to use less inline CSS declarations.
+  
+Set all box sizing to border box, makes life easier. Padding pushes out to make more space, margin pushes in away.
+  
+Using rem for font size made my life easier, put px for header and footer sizes.
+  
+Almost always use align-items center for flex, stretch is also good for putting things in middle.
+  
+Still don't quite get space-between vs. space-around for flex justify-content, also don't get relative vs absolute alignment.
+  
+CSS tricks, W3schools, Stackoverflow, and developer tools are all super helpful.
+  
+.
+  
+.
+  
+ReGex + others:
+  
+To get input from html document, can use document.queryselector (any CSS selector) document.getlementbyid (only ids)
+  
+//: JS regex starts and end with backslashes, (): Capturing group, (?:): Non-capturing group, (?=): look-ahead group, \n: captures same characters captured in group n, ^: matches start of string, $: captures end of string.
+  
+Match valid Phone number: /^(?:\d{3}|\(\d{3}\))([-/.])\d{3}\1\d{4}$/
+  
+/d: any digit, /w: any word, /s: whitespace, /S: any non-whitespace character
+  
+.addeventlistener(type (string of event), listener (object or function that recieves notifcation and does something), options (multiple possible specifications) : Does something when something happens, similar to .onclick.
+  
+` `: backticks, used to enclose strings that also have stuff you want to be evaluated like variables or functions.
+  
+.textcontent: defines what the text inside a element will be. .value: accesses the value passed into an element.
+  
+Rest and spread are basically reciprocals of each other, one passed into function as parameter and other put while intially declaring function.
+  
+Deconstructing is similar to tuple unpacking in Python, you need to use same type of brackets as thing you are unpacking.
+  
+Use exceptions sparingly, utilize fallbakcks where you try to do thing in ideal way but if that doesn't work do it in non-ideal way.
+  
+Can use prompt() function or capture input on form element.
+  
+Dom: Document object model, name for API's that together can modify hmtl, document is root for DOM
+  
+&nbsp: non-breaking space, makes space every time consistently for html, string representation is "\u00A0",  very useful, multiple " " in a row will just be interpreted as one break.
+  
+Adding spaces when joining arrays was giving me trouble, fixing that fixed my problems.
+  
+& is not greedy, evaluates everything, && is greedy an short circuits. 
+.
+
+.
+
+Promise, async, await: 
+.
+
+.
+
+Simon JS: Form can be completely replaced by JS, no longer need HMTL element to submit button click when you can use addeventlistener or onclick instead.
+
+localStorage: object in web browser that allows developers to store key-value pairs in web browser, can store data even if page is closed. Data stored as string, setItem makes item, getItem removes item, removeItem removes item.
+
+Window Object: current tab or window, top level object in JS hierarchy. Window.location: Used to change Url to move to new browser. Window.localstorage: Provides access to browsers local storage. Windows.document: Provides access to DoM. Windows.alert, Windows.prompt.
+
+Mostly just main that is changing with JS, most other thigs staying pretty much the same.
+
+Onclick = "function", function has to be surrounded in quotes.
+
+<script tag more commonly placed in bottom of html because it allows everything else to load first.
+
+
+MiDTERM:
+
+Record type to point to another DNS record: CNAME, but we need to know A, not SOA or txt 
+DOM textContent: Sets child text for the an element
+CNAME: Canonical Name, maps a hostname to another hostname, does not have to be in same zone, "www CNAME web" would map "www.reddit.com" to "web.reddit.com". Likewise "www CNAME www.google.com." would map "www.reddit.com" to "www.google.com"
+A: Adress record, maps hostname to IP address, "www A 72.246.43.82" means that "www.reddit.com" can be found at the IP address 72.246.43.82. Note that you can have multiple A records (IP addresses) for the same hostname.
+Can use CSS to load fonts from Google, look up what that syntax is
+Valid Json: {“x”:3], always has key value in double quotes for JSON, undefined not valid value for JSON object
+Valid Javascript object: {x:3}
+To turn BYU text blue: div.header {color: blue}
+<Javascript> </Javascript> Not valid to include Javascript in HTML
+/A|f/i: /i means not case sensitive, regular expression that will match an a or f
+Function f(x) = {}: Not a valid function. Arrow functions are valid though.
+Padding: Puts space around content of selected documents, Pals before marriage
+Margin, border, padding, content, from outside in of box
+Reduce: Takes array and makes it into one item, map:  map: Takes array and applies some sort of function to each item, maps function onto every value in array, filter: Pass in array, returns array with values that match criteria, sum:
+<ul>: HTML unordered list, <li>: Item in a list, <ol>: ordered list
+<a href: valid link
+Dns subdomain: c260.cs.byu.edu
+Chmod +x deploy.sh: Command to change file permissions of deploy.sh, chmod: change mode which allows you to modify file, +x adds execute permissions to file, means it can be executed as a program.
+Ls – la deploy.sh: list details about deploy.sh, ls stands for list and shows content, la is ls option used to display additional information
+Sudo deploy.sh: runs deploy.sh with priveleges, sudo: superuser do, executes commands with administrative or root-level permissions
+Ssh deploy.sh: Not a valid command, ssh is used to establish a secure shell connection to server.
+
+
