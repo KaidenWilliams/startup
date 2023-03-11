@@ -277,6 +277,8 @@ Ls – la deploy.sh: list details about deploy.sh, ls stands for list and shows 
 Sudo deploy.sh: runs deploy.sh with priveleges, sudo: superuser do, executes commands with administrative or root-level permissions
 Ssh deploy.sh: Not a valid command, ssh is used to establish a secure shell connection to server.
 
+   
+   
 Startup Javascript: Submit is used for form, click is used for when button is not in form.
 
 I know it's not good to use inline CSS and I should try to make everything reusable and modular but it is just so quick and easy to use inline.
