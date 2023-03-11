@@ -277,4 +277,14 @@ Ls – la deploy.sh: list details about deploy.sh, ls stands for list and shows 
 Sudo deploy.sh: runs deploy.sh with priveleges, sudo: superuser do, executes commands with administrative or root-level permissions
 Ssh deploy.sh: Not a valid command, ssh is used to establish a secure shell connection to server.
 
+Startup Javascript: Submit is used for form, click is used for when button is not in form.
 
+I know it's not good to use inline CSS and I should try to make everything reusable and modular but it is just so quick and easy to use inline.
+
+My thoughts about async, await, and promises were that they were only meant to be used when doing something that would take a while, such as making a request to get something from a server
+
+.createElement(element) creates html element, .classlist.add(class) adds class definition and CSS styling to newly created class. Also, setattribute().
+
+.style.left, .style.right, .style.top and.style.bottom used to choose position of something on screen.
+
+I don't know if I should use classes while using Javascript, but I have items I want to group together but don't know how to.
