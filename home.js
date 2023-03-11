@@ -1,4 +1,6 @@
-// Function that adds dot
+//All this do stuff will probably get a lot simpler when I can use a map
+
+//Function that creates dot
 
 const map = document.getElementById("mapimage");
 
@@ -6,10 +8,9 @@ map.addEventListener("click", (event) => {
   const dot = document.createElement("div");
   dot.classList.add("dot");
   dot.style.left = event.clientX + "px";
-  dot.style.top = event.clientY + "px";
+  dot.style.top = (event.clientY - map.offsetTop) + "px";
   map.appendChild(dot);
 });
-
 
 //Function that creates text box popup, maybe is called by dot function
 

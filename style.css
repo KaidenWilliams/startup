@@ -62,16 +62,18 @@ main {
     opacity: 50%;
     background-image: url("Big_image.jpg");
     background-repeat: no-repeat;
+    position: relative;
   }
 
+  
   .dot {
-    position: relative;
+    position: absolute;
     width: 10px;
     height: 10px;
     border-radius: 50%;
     background-color: red;
-    /* transform: translate(-50%, -50%); */
   }
+
 
 
 
