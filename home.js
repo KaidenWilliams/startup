@@ -10,11 +10,16 @@ map.addEventListener("click", (event) => {
   dot.style.left = event.clientX + "px";
   dot.style.top = (event.clientY - map.offsetTop) + "px";
   map.appendChild(dot);
-});
 
 //Function that creates text box popup, maybe is called by dot function
 
-
+  const popup = document.createElement("div");
+  popup.classList.add("popup");
+  dot.appendChild(popup);
+  dot.addEventListener("click", (event) => {
+    popup.classList.toggle("show");
+  });
+});
 
 //Function that closes out of current text box also allows you to favorite it, maybe make it a class or object but idk we'll see
 

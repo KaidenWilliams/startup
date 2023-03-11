@@ -44,7 +44,13 @@
   justify-content: space-between;
 }
 
-
+.popup {
+  width: 5em;
+  height: 10em;
+  background-color: white;
+  text-align:center;
+  visibility: hidden;
+}
 
 
 main {
