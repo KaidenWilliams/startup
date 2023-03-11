@@ -3,7 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     Padding: 0;
-    border: 0.1em solid black;
+    /* border: 0.1em solid black; */
   }
   
   body {
@@ -44,13 +44,7 @@
   justify-content: space-between;
 }
 
-.popup {
-  width: 5em;
-  height: 10em;
-  background-color: white;
-  text-align:center;
-  visibility: hidden;
-}
+
 
 
 main {
@@ -70,7 +64,6 @@ main {
     background-repeat: no-repeat;
     position: relative;
   }
-
   
   .dot {
     position: absolute;
@@ -78,6 +71,14 @@ main {
     height: 10px;
     border-radius: 50%;
     background-color: red;
+  }
+
+  .popup {
+    width: 5em;
+    height: 10em;
+    background-color: white;
+    text-align:center;
+    visibility: hidden;
   }
 
 
