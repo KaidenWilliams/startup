@@ -15,6 +15,7 @@ map.addEventListener("click", (event) => {
 //Function that creates text box popup, maybe is called by dot function
 
 
+
 //Function that closes out of current text box also allows you to favorite it, maybe make it a class or object but idk we'll see
 
 
