@@ -290,3 +290,15 @@ My thoughts about async, await, and promises were that they were only meant to b
 .style.left, .style.right, .style.top and.style.bottom used to choose position of something on screen.
 
 I don't know if I should use classes while using Javascript, but I have items I want to group together but don't know how to.
+
+Simon Service:
+
+I have a better understanding of what an API is now, my understanding is that it's just any interface that you can use to access data from another website. You don't really get to understand what's happening, but you can make a request to an API and get information from it.
+
+It seems that package.JSON and package-lock.JSON are automatically generated, but I could not figure out how to make them generate so I had to copy and paste them.
+
+I encountered error 502 when I initially tried accessing my website becuase of my file structure, the computer got mad that I did not put everything into public which I don't really understand why, maybe because deploy.Service is looking for public when it runs.
+
+I need to understand what gitignore does better.
+
+It makes more sense to use async functions when using services, it can take a while to get data and it would suck for that to be the limiting factor in how fast your website loaded.
