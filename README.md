@@ -302,3 +302,23 @@ I encountered error 502 when I initially tried accessing my website becuase of m
 I need to understand what gitignore does better.
 
 It makes more sense to use async functions when using services, it can take a while to get data and it would suck for that to be the limiting factor in how fast your website loaded.
+
+
+SimonDB:
+
+I find it cool how all the technologies we are using allow our app to access the internet. I don't completely understand how we get our data back from MongoDB though, if we use fetch or there is some other way to do it.
+
+I finally realized Node.JS is just something that allows us to run Javascript on a server (server-side), not just on a users web browser(client-side). Client-side is for interactions on website, server-side is for handling requests and generating responses sent to client-side. Node.Js has built-in modules that allow it to work with databases, handle http responses, and more. NPM is a packet manager for Node.js and acts as center for all packages you install.
+   
+Node.js application: Program written using Node.JS runtime environment, any js files with Node code, if you install node.js any files on your computer can use it, can execute node file by writing node filename.js in command line.
+   
+Express: Web framework that provides tools for handling HTTP requests, responses, routing. Express lets you build server-side web applications using Node.js that can perform backend operations.
+   
+Fetch: Javascript method/thing that allows you to make HTTP requests, send requests and retrieve data normally in JSON, supports GET, POST, DELETE, headers and other methods.
+   
+Fetch sends HTTP requests to Express server in JSON format as response to user -> Express server recieves request, retrieves data from MongoDB database -> Express server sends response back to client in JSON or HTMl data -> JavaScript handles response from the server and updates the user interface accordingly.
+  
+MongoDB: Database system, stores data as JSON-like documents, to get data need to connect by specifying authentification credentials, choosing database, constructing query (in format similar to JS), process results. Atlas DB is a user-friendly UI and API that provides a convenient way of running a MONGODB database in the cloud.
+  
+Production environment: Environment where application is actually running, AWS.
+
