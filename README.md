@@ -236,6 +236,14 @@ Adding spaces when joining arrays was giving me trouble, fixing that fixed my pr
 .
 
 Promise, async, await: 
+  
+Promise: Value not yet returned that will be returned in future, used on code that is resource intensive. Promise is either pending, fulfilled, or rejected. Can call promise with resolve, reject functions that you call if promise is sucessful or not, can use .then and .catch later on promise object to do something if promise works or is rejected, then catch finally. Then, catch, and finally if given data will use the paramaters passed into resolve and reject.
+  
+Async function: declares function as async, means await can be called in it's body and it automatically returns a promise.
+  
+Await: When promise is called with await, function calling await stops execution and waits until promise is done to resume. Stops function from executing until promise is handled, makes asynch functions which would otherwise kinda act synchronous asynch. Makes code a lot more readable, to execute multiple promises in a row don't have to use chaining promises in end statements, each await executed in turn but it is still async as other code in file can be executed in meantime. Uses try catch. 
+  
+Calling multiple await functions at once with promise.settleall (gives you all results) or promise.all (reject immediately if any promises reject) stops execution from halting if an error in one reject statement is not handled.
 .
 
 .
