@@ -330,3 +330,11 @@ MongoDB: Database system, stores data as JSON-like documents, to get data need t
   
 Production environment: Environment where application is actually running, AWS.
 
+Route 53: DNS web service provider, routes stuff. EC2: Provides resizable web computing on cloud.
+
+JQueqry and fetch both API for making html requests.
+
+Fetch: Request and response objects, takes path to resource as mandatory argument, returns promise that resolves to response to request when server responds with headers, can do things with that response.
+
+Post: Used to submit data to server or update resource, used to create new accounts, adding items etc. 
+
