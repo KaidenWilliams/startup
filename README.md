@@ -338,3 +338,16 @@ Fetch: Request and response objects, takes path to resource as mandatory argumen
 
 Post: Used to submit data to server or update resource, used to create new accounts, adding items etc. 
 
+.
+
+.
+
+Simon Login: I definitely am having more and more trouble writing the code to my production environment as things get more complicated, I keep on messing up variables and files that I have renamed.
+
+It is interesting as more and more files get added and different services get used the wide variety of .function()'s that exist, it looks almost like code gold to someone like me who is inexperienced with JS.
+  
+It makes sense that all the CSS code got decentralized in this version, I have been working with CSS all in one file for my startup and it has definitely been a challenge so I will definitely spread it out.
+
+HTTP response code status 200 means that everything has gone well and that the request was sucessful.
+
+
