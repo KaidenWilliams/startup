@@ -350,4 +350,20 @@ It makes sense that all the CSS code got decentralized in this version, I have b
 
 HTTP response code status 200 means that everything has gone well and that the request was sucessful.
 
+.
 
+.
+
+Simon websocket:
+
+I originally thought the Simon websocket was doing nothing because all that showed up was game connected, but realized that was because no one else could currently be online on my site.
+
+UUID is used to generate Universally Unique Indentifiers which can be assigned to connection with websocket server, and each message between the client and the server has that UUID attached to identify specific message that UUId is associated with.
+
+Websocket could be used in my map application to update geographic information real time
+
+module.exports = { PeerProxy }; used so that new PeerProxy instance can be instantiated in index.js
+
+Connection object is created that contains ws (websocket connection) and bool property set to alive
+
+Server sends pings every 10 seconds to check if client is still there, if it doesn't respond with pong in time it means that they are no longer there and the connection is killed.
