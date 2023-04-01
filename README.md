@@ -236,6 +236,14 @@ Adding spaces when joining arrays was giving me trouble, fixing that fixed my pr
 .
 
 Promise, async, await: 
+  
+Promise: Value not yet returned that will be returned in future, used on code that is resource intensive. Promise is either pending, fulfilled, or rejected. Can call promise with resolve, reject functions that you call if promise is sucessful or not, can use .then and .catch later on promise object to do something if promise works or is rejected, then catch finally. Then, catch, and finally if given data will use the paramaters passed into resolve and reject.
+  
+Async function: declares function as async, means await can be called in it's body and it automatically returns a promise.
+  
+Await: When promise is called with await, function calling await stops execution and waits until promise is done to resume. Stops function from executing until promise is handled, makes asynch functions which would otherwise kinda act synchronous asynch. Makes code a lot more readable, to execute multiple promises in a row don't have to use chaining promises in end statements, each await executed in turn but it is still async as other code in file can be executed in meantime. Uses try catch. 
+  
+Calling multiple await functions at once with promise.settleall (gives you all results) or promise.all (reject immediately if any promises reject) stops execution from halting if an error in one reject statement is not handled.
 .
 
 .
@@ -290,3 +298,72 @@ My thoughts about async, await, and promises were that they were only meant to b
 .style.left, .style.right, .style.top and.style.bottom used to choose position of something on screen.
 
 I don't know if I should use classes while using Javascript, but I have items I want to group together but don't know how to.
+
+Simon Service:
+
+I have a better understanding of what an API is now, my understanding is that it's just any interface that you can use to access data from another website. You don't really get to understand what's happening, but you can make a request to an API and get information from it.
+
+It seems that package.JSON and package-lock.JSON are automatically generated, but I could not figure out how to make them generate so I had to copy and paste them.
+
+I encountered error 502 when I initially tried accessing my website becuase of my file structure, the computer got mad that I did not put everything into public which I don't really understand why, maybe because deploy.Service is looking for public when it runs.
+
+I need to understand what gitignore does better.
+
+It makes more sense to use async functions when using services, it can take a while to get data and it would suck for that to be the limiting factor in how fast your website loaded.
+
+
+SimonDB:
+
+I find it cool how all the technologies we are using allow our app to access the internet. I don't completely understand how we get our data back from MongoDB though, if we use fetch or there is some other way to do it.
+
+I finally realized Node.JS is just something that allows us to run Javascript on a server (server-side), not just on a users web browser(client-side). Client-side is for interactions on website, server-side is for handling requests and generating responses sent to client-side. Node.Js has built-in modules that allow it to work with databases, handle http responses, and more. NPM is a packet manager for Node.js and acts as center for all packages you install.
+   
+Node.js application: Program written using Node.JS runtime environment, any js files with Node code, if you install node.js any files on your computer can use it, can execute node file by writing node filename.js in command line.
+   
+Express: Web framework that provides tools for handling HTTP requests, responses, routing. Express lets you build server-side web applications using Node.js that can perform backend operations.
+   
+Fetch: Javascript method/thing that allows you to make HTTP requests, send requests and retrieve data normally in JSON, supports GET, POST, DELETE, headers and other methods.
+   
+Fetch sends HTTP requests to Express server in JSON format as response to user -> Express server recieves request, retrieves data from MongoDB database -> Express server sends response back to client in JSON or HTMl data -> JavaScript handles response from the server and updates the user interface accordingly.
+  
+MongoDB: Database system, stores data as JSON-like documents, to get data need to connect by specifying authentification credentials, choosing database, constructing query (in format similar to JS), process results. Atlas DB is a user-friendly UI and API that provides a convenient way of running a MONGODB database in the cloud.
+  
+Production environment: Environment where application is actually running, AWS.
+
+Route 53: DNS web service provider, routes stuff. EC2: Provides resizable web computing on cloud.
+
+JQueqry and fetch both API for making html requests.
+
+Fetch: Request and response objects, takes path to resource as mandatory argument, returns promise that resolves to response to request when server responds with headers, can do things with that response.
+
+Post: Used to submit data to server or update resource, used to create new accounts, adding items etc. 
+
+.
+
+.
+
+Simon Login: I definitely am having more and more trouble writing the code to my production environment as things get more complicated, I keep on messing up variables and files that I have renamed.
+
+It is interesting as more and more files get added and different services get used the wide variety of .function()'s that exist, it looks almost like code gold to someone like me who is inexperienced with JS.
+  
+It makes sense that all the CSS code got decentralized in this version, I have been working with CSS all in one file for my startup and it has definitely been a challenge so I will definitely spread it out.
+
+HTTP response code status 200 means that everything has gone well and that the request was sucessful.
+
+.
+
+.
+
+Simon websocket:
+
+I originally thought the Simon websocket was doing nothing because all that showed up was game connected, but realized that was because no one else could currently be online on my site.
+
+UUID is used to generate Universally Unique Indentifiers which can be assigned to connection with websocket server, and each message between the client and the server has that UUID attached to identify specific message that UUId is associated with.
+
+Websocket could be used in my map application to update geographic information real time
+
+module.exports = { PeerProxy }; used so that new PeerProxy instance can be instantiated in index.js
+
+Connection object is created that contains ws (websocket connection) and bool property set to alive
+
+Server sends pings every 10 seconds to check if client is still there, if it doesn't respond with pong in time it means that they are no longer there and the connection is killed.
