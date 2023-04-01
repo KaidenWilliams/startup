@@ -277,7 +277,7 @@ Function f(x) = {}: Not a valid function. Arrow functions are valid though.
 Padding: Puts space around content of selected documents, Pals before marriage
 Margin, border, padding, content, from outside in of box
 Reduce: Takes array and makes it into one item, map:  map: Takes array and applies some sort of function to each item, maps function onto every value in array, filter: Pass in array, returns array with values that match criteria, sum:
-<ul>: HTML unordered list, <li>: Item in a list, <ol>: ordered list
+ul: HTML unordered list, li: Item in a list, ol: ordered list
 <a href: valid link
 Dns subdomain: c260.cs.byu.edu
 Chmod +x deploy.sh: Command to change file permissions of deploy.sh, chmod: change mode which allows you to modify file, +x adds execute permissions to file, means it can be executed as a program.
@@ -367,3 +367,10 @@ module.exports = { PeerProxy }; used so that new PeerProxy instance can be insta
 Connection object is created that contains ws (websocket connection) and bool property set to alive
 
 Server sends pings every 10 seconds to check if client is still there, if it doesn't respond with pong in time it means that they are no longer there and the connection is killed.
+.
+
+.
+
+Services Startup Notes:
+
+index.js not normally imported into html files, instead used as entry point for Node.Js application, contains code that sets up and configures application, other JS files can import and use that code.
