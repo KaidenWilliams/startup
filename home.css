@@ -1,0 +1,43 @@
+header {
+    padding: 0.30rem; 
+    margin: 0.35rem;
+}
+
+
+input {
+    width: 50%;
+    font-size: 1.85rem;
+    padding: 0.30rem;
+}
+
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    height: 70px;
+  }
+
+
+  .hinput {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+
+  #mapimage {
+    height: 100%;
+    width: 100%;
+    opacity: 50%;
+    background-image: url("Big_image.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+
+  .bdiv {
+    padding: 0.3rem;
+}

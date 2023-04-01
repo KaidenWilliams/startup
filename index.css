@@ -1,0 +1,46 @@
+.iheader {
+    flex: 0 6rem;
+  }
+
+
+  .ihfont{
+    font-size: 4rem;
+}
+
+
+.welcome {
+    font-size: 1.85rem
+}
+
+
+.spacer {
+    padding-top: 1rem
+}
+
+
+input {
+    font-size: 1.60rem; 
+    padding: 0.12rem;
+}
+
+
+.button2 {
+    background-color: rgb(159, 195, 234); 
+    color: black; 
+    border: 0.15rem solid #000000;
+    padding: 0.08em;
+    font-size: 1.35rem;
+  }
+  
+  .button2:hover {
+    background-color: #3491cb;
+    color: rgb(255, 255, 255);
+  }
+  
+
+  .error {
+    text-align: center; 
+    color: red; 
+    font-size: 1.04rem;
+    margin-left: 0.45rem
+  }

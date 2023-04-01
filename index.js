@@ -34,9 +34,3 @@ emailinput.addEventListener('keypress', (e) => {
     test(emailinput, passwordinput);
   }
 });
-
-passwordinput.addEventListener('keypress', (e) => {
-  if (e.key === 'Enter') {
-    test(emailinput, passwordinput);
-  }
-});
