@@ -285,7 +285,9 @@ Ls – la deploy.sh: list details about deploy.sh, ls stands for list and shows 
 Sudo deploy.sh: runs deploy.sh with priveleges, sudo: superuser do, executes commands with administrative or root-level permissions
 Ssh deploy.sh: Not a valid command, ssh is used to establish a secure shell connection to server.
 
-   
+.
+
+.
    
 Startup Javascript: Submit is used for form, click is used for when button is not in form.
 
@@ -371,6 +373,19 @@ Server sends pings every 10 seconds to check if client is still there, if it doe
 
 .
 
+Web Framework - React: JSX: Combines JS and HTML. Babel converts JSX to valid JS. React.createelement: generates DOM elements, monitors the data they represent for changes, triggers dependent changes when one is detected.
+JS function that can be sprinkled with markup.
+Usestate: array that returns current state and function to update state.
+Function style state and class sytle state
+  
+.
+  
+.
+  
 Services Startup Notes:
 
 index.js not normally imported into html files, instead used as entry point for Node.Js application, contains code that sets up and configures application, other JS files can import and use that code.
+  
+.offsetheight and .offsetwidth give actual size of element on page.
+
+
