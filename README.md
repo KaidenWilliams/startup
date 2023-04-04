@@ -388,4 +388,10 @@ index.js not normally imported into html files, instead used as entry point for 
   
 .offsetheight and .offsetwidth give actual size of element on page.
 
+listen() function should be called after middleware, routes, and other server configurations made.
+
+Have to specify what HTTP requests will do.
+
+app.use adds middleware, makes it so all these functions get applied whenever HTTP requests are made.
+
 
