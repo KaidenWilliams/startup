@@ -277,7 +277,7 @@ Function f(x) = {}: Not a valid function. Arrow functions are valid though.
 Padding: Puts space around content of selected documents, Pals before marriage
 Margin, border, padding, content, from outside in of box
 Reduce: Takes array and makes it into one item, map:  map: Takes array and applies some sort of function to each item, maps function onto every value in array, filter: Pass in array, returns array with values that match criteria, sum:
-<ul>: HTML unordered list, <li>: Item in a list, <ol>: ordered list
+ul: HTML unordered list, li: Item in a list, ol: ordered list
 <a href: valid link
 Dns subdomain: c260.cs.byu.edu
 Chmod +x deploy.sh: Command to change file permissions of deploy.sh, chmod: change mode which allows you to modify file, +x adds execute permissions to file, means it can be executed as a program.
@@ -285,7 +285,9 @@ Ls – la deploy.sh: list details about deploy.sh, ls stands for list and shows 
 Sudo deploy.sh: runs deploy.sh with priveleges, sudo: superuser do, executes commands with administrative or root-level permissions
 Ssh deploy.sh: Not a valid command, ssh is used to establish a secure shell connection to server.
 
-   
+.
+
+.
    
 Startup Javascript: Submit is used for form, click is used for when button is not in form.
 
@@ -367,3 +369,29 @@ module.exports = { PeerProxy }; used so that new PeerProxy instance can be insta
 Connection object is created that contains ws (websocket connection) and bool property set to alive
 
 Server sends pings every 10 seconds to check if client is still there, if it doesn't respond with pong in time it means that they are no longer there and the connection is killed.
+.
+
+.
+
+Web Framework - React: JSX: Combines JS and HTML. Babel converts JSX to valid JS. React.createelement: generates DOM elements, monitors the data they represent for changes, triggers dependent changes when one is detected.
+JS function that can be sprinkled with markup.
+Usestate: array that returns current state and function to update state.
+Function style state and class sytle state
+  
+.
+  
+.
+  
+Services Startup Notes:
+
+index.js not normally imported into html files, instead used as entry point for Node.Js application, contains code that sets up and configures application, other JS files can import and use that code.
+  
+.offsetheight and .offsetwidth give actual size of element on page.
+
+listen() function should be called after middleware, routes, and other server configurations made.
+
+Have to specify what HTTP requests will do.
+
+app.use adds middleware, makes it so all these functions get applied whenever HTTP requests are made.
+
+
