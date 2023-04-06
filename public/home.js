@@ -17,7 +17,7 @@ map.addEventListener("click", (event) => {
   dot.style.left = event.clientX + "px";
   dot.style.top = (event.clientY - map.offsetTop) + "px";
   map.appendChild(dot);
-}
+})
 
 //Function that creates text box popup, maybe is called by dot function
 

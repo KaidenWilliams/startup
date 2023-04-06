@@ -14,7 +14,6 @@ const apiRouter = express.Router();
 app.use(`/api`, apiRouter)
 
 
-
 //Returns Default Page if ever errors
 app.use((_req, res) => {
     res.sendFile('index.html', { root: 'public' });
