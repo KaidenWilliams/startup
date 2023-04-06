@@ -21,6 +21,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    border: 0.10em solid black;
   }
 
 
@@ -40,6 +41,7 @@ footer {
     flex-direction: row;
     justify-content: flex-start;
     background-color: antiquewhite;
+    border: 0.10em solid black;
   }
   
 
