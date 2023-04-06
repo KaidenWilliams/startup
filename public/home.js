@@ -1,4 +1,11 @@
-//All this do stuff will probably get a lot simpler when I can use a map
+class Dot {
+  constructor(longitude, latitude, name, city) {
+    this.longitude = longitude;
+    this.latitude = latitude;
+    this.name = name;
+    this.city = city;
+  }
+}
 
 //Function that creates dot
 
@@ -13,13 +20,6 @@ map.addEventListener("click", (event) => {
 
 //Function that creates text box popup, maybe is called by dot function
 
-  const popup = document.createElement("div");
-  popup.classList.add("popup");
-  dot.appendChild(popup);
-  dot.addEventListener("click", (event) => {
-    popup.classList.toggle("show");
-  });
-});
 
 //Function that closes out of current text box also allows you to favorite it, maybe make it a class or object but idk we'll see
 
