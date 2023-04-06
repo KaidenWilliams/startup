@@ -394,4 +394,7 @@ Have to specify what HTTP requests will do.
 
 app.use adds middleware, makes it so all these functions get applied whenever HTTP requests are made.
 
+Only get one free MongoDB cluster but can add multiple different collections and databases in it.
+
+Using fetch provides a lot more functionality than just including every source in HTML file
 
