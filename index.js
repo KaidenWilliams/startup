@@ -1,7 +1,7 @@
 const express = require("express")
 const app = express
 
-const port = process.argv.length > 2 ? process.argv[2] : 4000;
+const port = 4000;
 
 // Parses Json
 app.use(express.json());
@@ -11,7 +11,7 @@ app.use(express.static('public'));
 // Creates new router instance, basically mini express application, used to handle subrequests
 const apiRouter = express.Router();
 // Uses apiRouter to handle all requests that start with /api path, common convention to to distinguish API routes from others in application
-app.use(`/api`, apiRouter)
+app.use(`/api`, apiRouter);
 
 
 //Returns Default Page if ever errors
@@ -20,4 +20,8 @@ app.use((_req, res) => {
   });
 
 // Makes it so that express waits for incoming network connections on that port
-app.listen(port, () => {console.log(`Listening on port ${port}`)})
+
+app.listen(port, () => {
+  console.log(`Listening on port ${port}`);
+});
+
