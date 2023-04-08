@@ -399,3 +399,5 @@ Only get one free MongoDB cluster but can add multiple different collections and
 Using fetch provides a lot more functionality than just including every source in HTML file
 
 Kept getting 502 error, problem was with my package.JSON and package_lock.JSON, probably just forgot to NPM download certain things I was using.
+
+Class methods can be defined without a function keyword.
