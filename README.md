@@ -402,6 +402,10 @@ Kept getting 502 error, problem was with my package.JSON and package_lock.JSON, 
 
 Class methods can be defined without a function keyword.
 
+Globally declared variables are dangerous, you never know what they might mess up
+
+Middleware just designed to make your life easier, basically your own mini functions you can tell to do whatever you want when making different types of HTTP requests.
+
 .
 
 .
