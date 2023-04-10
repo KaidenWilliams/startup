@@ -398,3 +398,32 @@ Only get one free MongoDB cluster but can add multiple different collections and
 
 Using fetch provides a lot more functionality than just including every source in HTML file
 
+Kept getting 502 error, problem was with my package.JSON and package_lock.JSON, probably just forgot to NPM download certain things I was using.
+
+Class methods can be defined without a function keyword.
+
+Globally declared variables are dangerous, you never know what they might mess up
+
+Middleware just designed to make your life easier, basically your own mini functions you can tell to do whatever you want when making different types of HTTP requests.
+
+.
+
+.
+
+Simon React: 
+
+It is strange how the code is split into so many different files, I guess doing that takes better advantage of JSX.
+
+I assumed every JS file would be converted to JSX, I didn't realize you could still use normal JS with React.
+
+App.jsx is the main file, it loads components from all the other places.
+
+Index calls App in between BrowserRoute, which is just a wrapper that adds a lot of nice things like handling URL switching. App calls login components and provides NavLinks to the other main pages which call their own components.
+
+It is really interesting the different ways the code got adapted to make it work with react, for example using  const [authState, setAuthState] = React.useState(AuthState.Unknown); to check if the user is authenticated.
+
+.
+
+.
+
+I don't really know how to save data in a file well besides calling a global variable or array, maybe should just pass it into local storage or make a function grab it, probably safer
