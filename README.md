@@ -421,3 +421,9 @@ App.jsx is the main file, it loads components from all the other places.
 Index calls App in between BrowserRoute, which is just a wrapper that adds a lot of nice things like handling URL switching. App calls login components and provides NavLinks to the other main pages which call their own components.
 
 It is really interesting the different ways the code got adapted to make it work with react, for example using  const [authState, setAuthState] = React.useState(AuthState.Unknown); to check if the user is authenticated.
+
+.
+
+.
+
+I don't really know how to save data in a file well besides calling a global variable or array, maybe should just pass it into local storage or make a function grab it, probably safer
