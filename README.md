@@ -427,3 +427,26 @@ It is really interesting the different ways the code got adapted to make it work
 .
 
 I don't really know how to save data in a file well besides calling a global variable or array, maybe should just pass it into local storage or make a function grab it, probably safer
+
+
+
+FINAL:
+
+Port 80 reserved for: HTTP
+Port 443: HTTPS
+HTTP messages in 300 range are for: content redirects or caching
+400 range: Bad request, server cannot process
+Standard HTTP headers: content-type, host, cookie. Language not standard HTTP header
+Cookies allow: server to store data on client
+For HTTP request, first app.use is called, then executes matching router handler based on order they are defined in code.
+{ $or: [{name:/J.*/}, {score: {$lt:3}}]}\: Matches any JSON request where name starts with j and score is less than 3.
+JSON: Property names surrounded by double quotes, strings either double or single quotes, numbers none
+JS Array: Property names not in double quotes, string and numbers still the same though
+Hashing stored passwords is important because: It improves security by making the password not openly available for anyone on internet to read
+Websocket allows for real-time communication where HTTP requests do not constantly have to be sent back and forth, peer to peer instead of client to server, however in practicality it goes peer server peer to enable multiple user communication
+JSX: Used to componentize HTML, allow for composability of HTML, inject HTML into JS. Not to combine HTML, CSS, and JS, other frameworks do that but React only combines HTML and JS.
+For updatestate hooks, mostly parameterized and just given initial value
+NPM install WS: Adds websocket code to node_modules, adds dependency to package.json file, locks version of websocket application for your application
+Fetch can be used in front and back end code.
+Endpoint code to handle calls to certain API or route
+Linux daemon: starts when computer is rebooted, executes independent of user, pm2 is an example. Daemon is background process that runs continuously without associated terminal or user interface.
